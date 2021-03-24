@@ -1,0 +1,107 @@
+
+The result of the workstation audit:
+
+-------Uptime:  03:05:33 up 18 min,  1 user,  load average: 0,43, 0,45, 0,48
+
+-------Current user: mariia
+
+-------Recent login:
+mariia   :0           :0               Wed Mar 24 02:50   still logged in
+reboot   system boot  5.4.0-42-generic Wed Mar 24 02:47   still running
+mariia   :0           :0               Tue Mar 23 23:14 - crash  (03:32)
+reboot   system boot  5.4.0-42-generic Tue Mar 23 23:12   still running
+mariia   :0           :0               Tue Mar 23 15:53 - 17:44  (01:50)
+reboot   system boot  5.4.0-42-generic Tue Mar 23 15:49 - 17:45  (01:55)
+mariia   :0           :0               Tue Mar 23 11:35 - crash  (04:14)
+reboot   system boot  5.4.0-42-generic Tue Mar 23 11:31 - 17:45  (06:13)
+mariia   :0           :0               Mon Mar 22 19:53 - 03:14  (07:21)
+reboot   system boot  5.4.0-42-generic Mon Mar 22 19:43 - 17:45  (22:01)
+mariia   :0           :0               Mon Mar 22 10:31 - 17:36  (07:05)
+reboot   system boot  5.4.0-42-generic Mon Mar 22 10:28 - 17:39  (07:11)
+mariia   :0           :0               Sun Mar 21 20:41 - 04:05  (07:24)
+reboot   system boot  5.4.0-42-generic Sun Mar 21 20:38 - 04:05  (07:27)
+mariia   :0           :0               Sat Mar 20 23:46 - 16:11  (16:24)
+reboot   system boot  5.4.0-42-generic Sat Mar 20 23:41 - 04:05 (1+04:24)
+mariia   :0           :0               Fri Mar 19 13:41 - 17:45  (04:04)
+reboot   system boot  5.4.0-42-generic Fri Mar 19 13:37 - 17:48  (04:10)
+reboot   system boot  5.4.0-42-generic Tue Mar 16 22:12 - 22:27  (00:15)
+reboot   system boot  5.4.0-42-generic Tue Mar 16 11:52 - 14:41  (02:49)
+mariia   :0           :0               Tue Mar 16 09:15 - 09:25  (00:09)
+reboot   system boot  5.4.0-42-generic Tue Mar 16 08:54 - 09:27  (00:33)
+mariia   :0           :0               Sun Mar 14 05:18 - 11:25  (06:07)
+reboot   system boot  5.4.0-42-generic Sun Mar 14 05:08 - 11:26  (06:17)
+mariia   :0           :0               Sat Mar 13 16:36 - 01:31  (08:55)
+reboot   system boot  5.4.0-42-generic Sat Mar 13 16:31 - 01:31  (08:59)
+mariia   :0           :0               Tue Mar  9 09:51 - 10:03  (00:12)
+mariia   :0           :0               Tue Mar  9 09:45 - 09:51  (00:05)
+reboot   system boot  5.4.0-42-generic Tue Mar  9 09:43 - 10:04  (00:20)
+reboot   system boot  5.4.0-42-generic Tue Mar  9 09:38 - 09:43  (00:04)
+mariia   :0           :0               Tue Mar  9 09:26 - 09:36  (00:09)
+reboot   system boot  5.4.0-42-generic Tue Mar  9 09:24 - 09:38  (00:13)
+mariia   :0           :0               Tue Mar  9 09:13 - down   (00:10)
+reboot   system boot  5.4.0-42-generic Tue Mar  9 09:12 - 09:24  (00:12)
+reboot   system boot  5.4.0-42-generic Tue Mar  9 00:52 - 09:24  (08:31)
+reboot   system boot  5.4.0-42-generic Mon Mar  8 21:52 - 21:54  (00:02)
+reboot   system boot  5.4.0-42-generic Mon Mar  8 19:51 - 21:54  (02:03)
+
+wtmp begins Mon Mar  8 19:51:58 2021
+
+-------TOP-10 processes by RAM/CPU usege :
+  PID  PPID CMD                         %MEM %CPU
+ 1554  1367 /usr/bin/gnome-shell        16.8 13.4
+ 1906  1367 /usr/bin/gnome-software --g 11.9  2.1
+ 1129  1123 /usr/bin/gnome-shell        10.8  1.5
+ 1356  1354 /usr/lib/xorg/Xorg vt2 -dis  4.8  3.6
+ 1809  1336 /usr/lib/evolution/evolutio  4.5  0.1
+ 1859  1809 /usr/lib/evolution/evolutio  4.2  0.1
+ 2088  1336 /usr/bin/nautilus --gapplic  3.6  1.9
+ 1765  1367 nautilus-desktop             3.4  0.5
+ 1929  1336 /usr/lib/gnome-terminal/gno  2.6  1.2
+
+-------Open TCP/UDP ports :
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN     
+tcp6       0      0 ::1:631                 :::*                    LISTEN     
+udp        0      0 0.0.0.0:631             0.0.0.0:*                          
+udp        0      0 0.0.0.0:43676           0.0.0.0:*                          
+udp        0      0 127.0.0.53:53           0.0.0.0:*                          
+udp        0      0 0.0.0.0:68              0.0.0.0:*                          
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                          
+udp6       0      0 :::40509                :::*                               
+udp6       0      0 :::5353                 :::*                               
+
+-------Virtual Memory usege:
+procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
+ 0  0  35056  93116  19580 311696    1   16   408    34  204  376 12  3 77  8  0
+
+-------Usage of disk space:
+Filesystem      Size  Used Avail Use% Mounted on
+udev            655M     0  655M   0% /dev
+tmpfs           136M  1,6M  135M   2% /run
+/dev/sda1        15G  6,1G  7,9G  44% /
+tmpfs           679M     0  679M   0% /dev/shm
+tmpfs           5,0M  4,0K  5,0M   1% /run/lock
+tmpfs           679M     0  679M   0% /sys/fs/cgroup
+/dev/loop0      219M  219M     0 100% /snap/gnome-3-34-1804/66
+/dev/loop1       56M   56M     0 100% /snap/core18/1885
+/dev/loop2      1,0M  1,0M     0 100% /snap/gnome-logs/100
+/dev/loop4      384K  384K     0 100% /snap/gnome-characters/570
+/dev/loop6      2,5M  2,5M     0 100% /snap/gnome-calculator/748
+/dev/loop5      256M  256M     0 100% /snap/gnome-3-34-1804/36
+/dev/loop7      384K  384K     0 100% /snap/gnome-characters/550
+/dev/loop3       56M   56M     0 100% /snap/core18/1988
+/dev/loop8       63M   63M     0 100% /snap/gtk-common-themes/1506
+/dev/loop9      640K  640K     0 100% /snap/gnome-logs/103
+/dev/loop10      33M   33M     0 100% /snap/snapd/11107
+/dev/loop11      33M   33M     0 100% /snap/snapd/11402
+/dev/loop12     2,3M  2,3M     0 100% /snap/gnome-system-monitor/157
+/dev/loop13     2,5M  2,5M     0 100% /snap/gnome-calculator/884
+/dev/loop14      65M   65M     0 100% /snap/gtk-common-themes/1514
+/dev/loop15     2,3M  2,3M     0 100% /snap/gnome-system-monitor/148
+Ubuntu_18.04    357G  107G  251G  30% /media/sf_Ubuntu_18.04
+tmpfs           136M   28K  136M   1% /run/user/121
+tmpfs           136M   36K  136M   1% /run/user/1000
+
